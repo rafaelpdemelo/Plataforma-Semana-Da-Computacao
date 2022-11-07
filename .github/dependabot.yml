@@ -1,0 +1,9 @@
+version: 2
+updates:
+  # Permitir atualizações de versão para npm
+  - package-ecosystem: "npm"
+    # Procurar arquivos "package.json" e "lock" no diretório "root"
+    directory: "/"
+    # Verificar o registro npm para atualizações diárias (dias de semana)
+    schedule:
+      interval: "daily"
