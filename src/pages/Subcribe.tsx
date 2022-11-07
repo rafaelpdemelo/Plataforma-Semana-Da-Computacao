@@ -2,7 +2,6 @@ import { gql, useMutation } from "@apollo/client";
 import { useState, FormEvent } from "react";
 import { useNavigate } from "react-router-dom";
 import { Footer } from "../components/Footer";
-import { ImgCodeMockup } from "../components/ImgCodeMockup";
 import { Logo } from "../components/Logo";
 
 const CREATE_SUBSCRIBER_MUTATION = gql`
