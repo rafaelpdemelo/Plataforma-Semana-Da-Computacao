@@ -3,7 +3,7 @@
 Aplicação desenvolvida para a semana da computação da Universidade Católica de Pernambuco. Foi desenvolvida uma aplicação de plataforma de evento digital completo e acessível, todo o frontend feito em Vite, ReactJS, TailwindCSS e GraphQL.
 
 
-# 📚 Tecnologias utilizadasq
+# 📚 Tecnologias utilizadas
 
 <div style="display: flex">
   
@@ -25,7 +25,7 @@ Aplicação desenvolvida para a semana da computação da Universidade Católica
 $ git clone git@github.com:rafaelpdemelo/Plataforma-Semana-Da-Computacao.git
 
 # Entre no repositório
-$ cd event-platform
+$ cd Plataforma-Semana-Da-Computacao
 
 # Instale as dependências
 $ yarn install

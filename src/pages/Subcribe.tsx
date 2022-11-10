@@ -5,8 +5,8 @@ import { Footer } from "../components/Footer";
 import { Logo } from "../components/Logo";
 
 const CREATE_SUBSCRIBER_MUTATION = gql`
-  mutation CreateSubscriber($name: String!, $email: String!) {
-    createSubscriber(data: { name: $name, email: $email }) {
+  mutation CreateSubscriber($email: String!) {
+    createSubscriber(data: { email: $email }) {
       id
     }
   }
@@ -15,20 +15,20 @@ const CREATE_SUBSCRIBER_MUTATION = gql`
 export function Subcribe() {
   const navigate = useNavigate();
 
-  const [name, setName] = useState("");
   const [email, setEmail] = useState("");
 
-  const [createSubscriber] = useMutation(CREATE_SUBSCRIBER_MUTATION);
+  const [createSubscriber, {loading}] = useMutation(CREATE_SUBSCRIBER_MUTATION);
 
-  const handleSubmit = (e: FormEvent) => {
+  async function handleSubmit(e: FormEvent) {
     e.preventDefault();
 
-    createSubscriber({
+    await createSubscriber({
         variables: {
-            name,
             email,
         }
     })
+
+    navigate('/event')
 }
 
   return (
@@ -49,22 +49,16 @@ export function Subcribe() {
         </div>
 
         <div>
-          <div className="p-8 bg bg-gray-700 border border-gray-500 rounded">
+          <div className="p-16 bg bg-gray-700 border border-gray-500 rounded">
             <strong className="text-2xl mb-6 block">
               {" "}
-              Inscreva-se gratuitamente
+              Digite seu email
             </strong>
 
             <form
               onSubmit={handleSubmit}
               className="flex flex-col gap-2 w-full"
             >
-              <input
-                className="bg bg-gray-900 rounded px-5 h-14"
-                type="text"
-                placeholder="Seu nome completo"
-                onChange={(event) => setName(event.target.value)}
-              />
               <input
                 className="bg bg-gray-900 rounded px-5 h-14"
                 type="email"
@@ -74,9 +68,10 @@ export function Subcribe() {
 
               <button
                 type="submit"
+                disabled={loading}
                 className="mt-4 bg-green-500 uppercase py-4 rounded font-bold text-sm hover:bg-green-700 transition-colors disabled:opacity-50"
               >
-                Garantir minha vaga
+                Entrar no Evento
               </button>
             </form>
           </div>
