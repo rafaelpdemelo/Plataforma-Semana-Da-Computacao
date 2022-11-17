@@ -33,7 +33,7 @@ export function Subcribe() {
 
   return (
     <div className="min-h-screen bg-blur bg bg-cover bg-no-repeat flex flex-col items-center">
-      <div className="w-full max-w-[1100px] flex items-center justify-between mt-20 mx-auto">
+      <div className="w-full max-w-[1100px] flex items-center justify-between mt-[23rem] mx-auto">
         <div className="max-w-[640px]">
           <Logo />
 
