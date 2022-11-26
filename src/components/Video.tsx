@@ -102,6 +102,7 @@ export function Video(props:VideoProps) {
 
                         <a
                             href="https://forms.gle/tn18Z7tRcPnqdRwW6"
+                            target="_blank"
                             className="p-4 text-sm border border-blue-500 text-blue-500 flex items-center rounded font-bold uppercase gap-2 mt-2 justify-center hover:bg-blue-500 hover:text-gray-900 transition-colors"
                         >
                             <Lightning size={24} />
