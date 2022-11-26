@@ -38,7 +38,7 @@ $ yarn dev
 ```bash
 $ Rafael Pereira 
 $ Fernando Bertoncello
-$
+$ Luiz Eduardo Tolentino
 $
 $
 ```
