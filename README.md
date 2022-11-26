@@ -33,4 +33,13 @@ $ yarn install
 # Execute a aplicação
 $ yarn dev
 ```
+# Projeto desenvolvido por:
+
+```bash
+$ Rafael Pereira 
+$
+$
+$
+$
+```
 
