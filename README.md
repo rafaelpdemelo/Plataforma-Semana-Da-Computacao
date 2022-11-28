@@ -42,6 +42,6 @@ $ Rafael Pereira
 $ Fernando Bertoncello
 $ Luiz Eduardo Tolentino
 $ Alyson José de Farias Ramos
-$
+$ Lucas Felinto Vieira de França
 ```
 
