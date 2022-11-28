@@ -16,6 +16,8 @@ Aplicação desenvolvida para a semana da computação da Universidade Católica
   <a href="https://sass-lang.com/"><img align="center" alt="Hideki-Tailwind" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/tailwindcss/tailwindcss-plain.svg"> - TailwindCSS</a><br/>
   
   <a href="https://nodejs.org/"><img align="center" alt="Hideki-Node" height="30" width="35" src="https://github.com/devicons/devicon/blob/master/icons/graphql/graphql-plain.svg"> - GraphQL</a><br/>
+
+  <a href="https://chrome.google.com/webstore/detail/selenium-ide/mooikfkahbdckldjjndioackbalphokd"><img align="center" alt="Hideki-Node" height="30" width="35"  src="https://lh3.googleusercontent.com/QMC6shV36RWjLyESXJBQYyaB1aKnHKGWDcNxQk9s7eTWvo0MSEBABQ5GEWQXERXzA34V82RoANuF6CG77szX1krr=w128-h128-e365-rj-sc0x00ffffff"> - Selenium IDE</a><br/>
 </div>
     
 # ⚙️ Instalação
@@ -39,7 +41,7 @@ $ yarn dev
 $ Rafael Pereira 
 $ Fernando Bertoncello
 $ Luiz Eduardo Tolentino
-$
+$ Alyson José de Farias Ramos
 $
 ```
 

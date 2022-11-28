@@ -1,0 +1,281 @@
+{
+  "id": "e3a3d9fa-836a-4d2f-bb3e-abb50ac2369e",
+  "version": "2.0",
+  "name": "Teste",
+  "url": "https://plataforma-semana-da-computacao.vercel.app",
+  "tests": [{
+    "id": "49d5f368-8089-411a-aa26-dcc90ef47e83",
+    "name": "Teste 1",
+    "commands": [{
+      "id": "50c3f694-1e21-403c-855e-e52cab1668bd",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9709f5da-018b-4e9a-9af6-c319f722d45c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2ed36320-5af3-48b8-9c4c-48af03243dfc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bg-gray-900",
+      "targets": [
+        ["css=.bg-gray-900", "css:finder"],
+        ["xpath=//input[@type='email']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "42dc97b3-d065-4ebc-b5c5-f1b75da1014c",
+      "comment": "",
+      "command": "type",
+      "target": "css=.bg-gray-900",
+      "targets": [
+        ["css=.bg-gray-900", "css:finder"],
+        ["xpath=//input[@type='email']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "alyson"
+    }, {
+      "id": "a2498d70-5e5f-4d7f-8fc6-6895b0689c26",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bg-green-500",
+      "targets": [
+        ["css=.bg-green-500", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/div/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2adeddf4-55dc-4686-95dc-3c37212a68be",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.bg-green-500",
+      "targets": [
+        ["css=.bg-green-500", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/div/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "20f394b8-0ef0-4f8e-8fba-0a12a118688b",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.bg-gray-900",
+      "targets": [
+        ["css=.bg-gray-900", "css:finder"],
+        ["xpath=//input[@type='email']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "126,40"
+    }, {
+      "id": "8b0301bb-07dc-470b-88c9-e0125ca919e7",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.bg-gray-900",
+      "targets": [
+        ["css=.bg-gray-900", "css:finder"],
+        ["xpath=//input[@type='email']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "126,40"
+    }, {
+      "id": "4a44789f-4f43-49a1-9d53-29735adee66b",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.bg-gray-900",
+      "targets": [
+        ["css=.bg-gray-900", "css:finder"],
+        ["xpath=//input[@type='email']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "126,40"
+    }, {
+      "id": "e68c9ba7-e4f5-437d-b11f-4128862a531a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bg-gray-900",
+      "targets": [
+        ["css=.bg-gray-900", "css:finder"],
+        ["xpath=//input[@type='email']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4910d5f0-7e6d-44fc-b769-ae8c2893edb4",
+      "comment": "EmailCustomer",
+      "command": "executeScript",
+      "target": " return \"hello\" + Math.floor(Math.random() * 1000000) + \"@test.com\"",
+      "targets": [],
+      "value": "EmailCustomer"
+    }, {
+      "id": "acdd350c-9f6c-4ff0-951f-9816e9c53187",
+      "comment": "",
+      "command": "type",
+      "target": "css=.bg-gray-900",
+      "targets": [
+        ["css=.bg-gray-900", "css:finder"],
+        ["xpath=//input[@type='email']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${EmailCustomer}"
+    }, {
+      "id": "cf92f8fe-3a7c-451a-9291-e291444d8a45",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gap-2",
+      "targets": [
+        ["css=.gap-2", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[2]/div/form", "xpath:idRelative"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7108a63b-f047-466e-91a9-2c8a2a7add58",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bg-green-500",
+      "targets": [
+        ["css=.bg-green-500", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/div/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec99d3fb-0acd-4dcc-ab12-b335dc233568",
+      "comment": "",
+      "command": "pause",
+      "target": "1000",
+      "targets": [],
+      "value": "1000"
+    }, {
+      "id": "61ac9b6d-c91c-4a84-b8f0-4c02c1df089c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.group:nth-child(3) .mt-5",
+      "targets": [
+        ["css=.group:nth-child(3) .mt-5", "css:finder"],
+        ["xpath=//div[@id='root']/h1/div/main/aside/div/a[3]/div/strong", "xpath:idRelative"],
+        ["xpath=//a[3]/div/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'DIa 3 - Educação aberta: Oportunidades e Desafios')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "126ce913-8048-4f1e-bfc8-a5550741583a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cronograma",
+      "targets": [
+        ["linkText=Cronograma", "linkText"],
+        ["css=.false > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Cronograma')]", "xpath:link"],
+        ["xpath=//div[@id='root']/h1/div/header/nav/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/event/cronograma')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cronograma')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b5a132a-6939-426f-8b48-d28d7feee611",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pb-5:nth-child(7) .w-\\[375px\\] > .font-medium:nth-child(2)",
+      "targets": [
+        ["css=.pb-5:nth-child(7) .w-\\[375px\\] > .font-medium:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/ul/li[7]/div/div[2]/p[2]", "xpath:idRelative"],
+        ["xpath=//li[7]/div/div[2]/p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'Ao vivo - Encerramento do evento')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b331282-ec3e-4007-9261-47c5d0532e4b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Aulas",
+      "targets": [
+        ["linkText=Aulas", "linkText"],
+        ["css=.border-b-2 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Aulas')]", "xpath:link"],
+        ["xpath=//div[@id='root']/h1/div/header/nav/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/event')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Aulas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0f267c8-86f5-43d3-b7c6-b3ede81cc554",
+      "comment": "",
+      "command": "click",
+      "target": "css=.group:nth-child(1) .mt-5",
+      "targets": [
+        ["css=.group:nth-child(1) .mt-5", "css:finder"],
+        ["xpath=//div[@id='root']/h1/div/main/aside/div/a/div/strong", "xpath:idRelative"],
+        ["xpath=//strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Dia 1 - O lado Humano das Cidades Inteligentes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3410f65-5c76-4ea4-be92-dda24dbba525",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.bg-green-500",
+      "targets": [
+        ["css=.bg-green-500", "css:finder"],
+        ["xpath=//div[@id='root']/h1/div/main/aside/div/a/div", "xpath:idRelative"],
+        ["xpath=//a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e375114-38da-4227-bd05-20fff7c46214",
+      "comment": "",
+      "command": "click",
+      "target": "css=.group:nth-child(2) .mt-5",
+      "targets": [
+        ["css=.group:nth-child(2) .mt-5", "css:finder"],
+        ["xpath=//div[@id='root']/h1/div/main/aside/div/a[2]/div/strong", "xpath:idRelative"],
+        ["xpath=//aside/div/a[2]/div/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Dia 2 - A Computação na Guerra Contra as Fake News')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "27a7ba30-98b3-4363-908f-68adfd874ebf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.h-16",
+      "targets": [
+        ["css=.h-16", "css:finder"],
+        ["xpath=//img[contains(@src,'https://github.com/leusonmario.png')]", "xpath:img"],
+        ["xpath=//div[@id='root']/h1/div/main/div/div[2]/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c7e01e83-968b-420e-a863-a22fbafbd869",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["49d5f368-8089-411a-aa26-dcc90ef47e83"]
+  }],
+  "urls": ["https://plataforma-semana-da-computacao.vercel.app/"],
+  "plugins": []
+}
